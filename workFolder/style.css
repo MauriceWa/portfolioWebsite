@@ -13,6 +13,19 @@
     border-radius: 50px;
 }
 
+.companyContainer{
+    background-color: #011a2c;
+}
+
+.gitHubContainer{
+    background-color: #0a2c01;
+}
+.curruculumVitaeContainer{
+    background-color: #2c0101;
+}
+.aboutMeContainer{
+    background-color: #2c2801;
+}
 
 .scroll-container {
     background-color: #333;
