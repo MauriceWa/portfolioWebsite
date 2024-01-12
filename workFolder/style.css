@@ -8,11 +8,11 @@
     font-size: 2em;
 }
 
-
-.projects{
-
-
+.sub-titles {
+    border-color:yellow;
+    border-radius: 50px;
 }
+
 
 .scroll-container {
     background-color: #333;
