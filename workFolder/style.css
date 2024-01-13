@@ -13,18 +13,45 @@
     border-radius: 50px;
 }
 
-.companyContainer{
+.company .companyContainer {
+    display: flex;
+    align-items: flex-start;
     background-color: #011a2c;
+
+}
+
+.companyContainer img{
+    max-width: 30%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.paragraphAboutCompany{
+    background: rgb(0,0,0,0);
+    flex-grow: 1;
+    text-align: justify;
+
 }
 
 .gitHubContainer{
     background-color: #0a2c01;
 }
+
+.gitHubContainer img{
+    max-width: 30%;
+
+}
 .curruculumVitaeContainer{
     background-color: #2c0101;
 }
+
 .aboutMeContainer{
     background-color: #2c2801;
+}
+
+.aboutMeContainer img {
+    max-width: 30%;
+
 }
 
 .scroll-container {
@@ -41,8 +68,13 @@
     font-size: 2em;
 }
 
-div.scroll-container img {
+.scroll-container img {
     padding: 5px;
     max-height: 10em;
+
+}
+
+
+@media (max-width: 768px){
 
 }
