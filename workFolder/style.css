@@ -21,15 +21,30 @@
 }
 
 .sub-titles {
-    border-color:yellow;
-    border-radius: 50px;
-    margin-bottom: 1em;
+    font-size: 5em;
+    background-color: rgb(0,0,0,0 );
+
+}
+
+
+
+
+
+
+
+
+
+.subTitlesCompany{
+    font-size: 5em;
+    background-color: rgb(0,0,0,0 );
+    margin-top: 0.25em;
+    margin-left: 0.25em;
 
 }
 .scroll-container img {
     padding: 5px;
     max-height: 10em;
-
+    margin-top: 2em;
 }
 
 .companyContainer {
@@ -40,19 +55,36 @@
 }
 
 .companyContainer img{
-    max-width: 20em;
+    max-width: 10em;
     height: auto;
-    margin-right: 20px;
+
 }
 .company-name{
     background-color: #011a2c;
+    margin-left: 5em;
 
 }
 .paragraphAboutCompany{
     background-color: #011a2c;
-    flex-grow: 1;
-    text-align: justify;
+    text-align: center;
+    margin-top: 10em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .gitHubContainer{
     background-color: #0a2c01;
@@ -69,7 +101,7 @@
     text-align: justify;
 }
 
-.curruculumVitaeContainer{
+.curriculumVitaeContainer{
     background-color: #2c0101;
 }
 
@@ -94,10 +126,7 @@
     text-align: justify;
 }
 
-.sub-titles{
-    background: rgb(0,0,0,0);
-    font-size: 2em;
-}
+
 
 
 
