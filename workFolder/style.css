@@ -25,49 +25,51 @@
     background-color: rgb(0,0,0,0 );
 
 }
-
-
-
-
-
-
-
-
-
-.subTitlesCompany{
-    font-size: 5em;
-    background-color: rgb(0,0,0,0 );
-    margin-top: 0.25em;
-    margin-left: 0.25em;
-
-}
 .scroll-container img {
     padding: 5px;
     max-height: 10em;
     margin-top: 2em;
 }
 
+
+
+
+
+
+
+
 .companyContainer {
-    display: flex;
-    align-items: flex-start;
+    display: block;
     background-color: #011a2c;
     margin-bottom: 30em;
+
+}
+.subTitlesCompany{
+    font-size: 5em;
+    margin-top: 0.25em;
+    margin-left: 0.25em;
+    background-color: #011a2c;
+
+}
+
+article {
+    display: flex;
+    background-color: #011a2c;
+
 }
 
 .companyContainer img{
-    max-width: 10em;
+    max-width: 15em;
     height: auto;
-
-}
-.company-name{
     background-color: #011a2c;
-    margin-left: 5em;
-
+    margin-left: 7em;
+    margin-bottom: 5em;
 }
+
 .paragraphAboutCompany{
     background-color: #011a2c;
-    text-align: center;
-    margin-top: 10em;
+    margin-left: 5em;
+    font-size: 2em;
 }
 
 
