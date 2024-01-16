@@ -100,17 +100,19 @@ body {
 
 
 .companyContainer {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-start;
     background-color: #011a2c;
     margin-bottom: 30em;
-
 }
+
 .subTitlesCompany{
     font-size: 5em;
-    margin-top: 0.25em;
-    margin-left: 0.25em;
+    margin-top: 10vh;
+    margin-right: 47vw;
     background-color: #011a2c;
-
 }
 
 .companyArticle {
@@ -119,12 +121,19 @@ body {
 
 }
 
-.companyContainer img{
+.companyArticle img{
     max-width: 15em;
     height: auto;
     background-color: #011a2c;
-    margin-left: 7em;
+    margin-left: 25vw;
     margin-bottom: 5em;
+}
+
+.companyTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
 }
 
 .paragraphAboutCompany{
