@@ -1,0 +1,209 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    background: black;
+    color: #b3b3b3;
+}
+
+
+
+
+
+
+.hero{
+    font-size: 3em;
+}
+.hero1{
+    color: #b3b3b3;
+    transition: font-size 0.3s;
+    cursor: pointer;
+}
+.hero2{
+    color: #b3b3b3;
+    transition: font-size 0.3s;
+    cursor: pointer;
+}
+.hero3{
+    color: #b3b3b3;
+    transition: font-size 0.3s;
+    cursor: pointer;
+}
+.hero4{
+    color: #b3b3b3;
+    transition: font-size 0.3s;
+    cursor: pointer;
+}
+.hero5{
+    color: #b3b3b3;
+    transition: font-size 0.3s;
+    cursor: pointer;
+}
+
+.hero1:hover {
+    color: #ffffff;
+    font-size: 2em;
+}
+.hero2:hover {
+    color: #ffffff;
+    font-size: 2em;
+}
+.hero3:hover {
+    color: #ffffff;
+    font-size: 2em;
+}
+.hero4:hover {
+    color: #ffffff;
+    font-size: 2em;
+}
+.hero5:hover {
+    color: #ffffff;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+.scroll-container {
+    background-color: #333;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 30em;
+    margin-bottom: 30em;
+}
+/* controls titles of each section except company */
+.sub-titles {
+    font-size: 5em;
+    background-color: rgb(0,0,0,0 );
+
+}
+
+.scroll-container img {
+    padding: 5px;
+    max-height: 10em;
+    margin-top: 2em;
+    background-color: #404040;
+}
+.projectArticle{
+    background-color: #404040;
+    border-color: #000;
+}
+
+
+
+.companyContainer {
+    display: block;
+    background-color: #011a2c;
+    margin-bottom: 30em;
+
+}
+.subTitlesCompany{
+    font-size: 5em;
+    margin-top: 0.25em;
+    margin-left: 0.25em;
+    background-color: #011a2c;
+
+}
+
+.companyArticle {
+    display: flex;
+    background-color: #011a2c;
+
+}
+
+.companyContainer img{
+    max-width: 15em;
+    height: auto;
+    background-color: #011a2c;
+    margin-left: 7em;
+    margin-bottom: 5em;
+}
+
+.paragraphAboutCompany{
+    background-color: #011a2c;
+    margin-left: 5em;
+    font-size: 2em;
+}
+
+
+
+.gitHubContainer{
+    background-color: #0a2c01;
+}
+
+.gitHubContainer img{
+    max-width: 30%;
+
+}
+
+.paragraphAboutGitHub{
+    background-color: #0a2c01;
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.githubBtn {
+    background-color: yellow;
+    color: #000;
+    font-size: 3em;
+    font-family: Kanit;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+
+
+
+.curriculumVitaeContainer{
+    background-color: #2c0101;
+}
+
+.paragraphAboutCV{
+    background-color: #2c0101;
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.cvBtn {
+    background-color: yellow;
+    color: #000;
+    font-size: 3em;
+    font-family: Kanit;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+
+
+
+.aboutMeContainer{
+    background-color: #2c2801;
+}
+
+.aboutMeContainer img {
+    max-width: 30%;
+
+}
+
+.paragraphAboutMe{
+    background-color: #2c2801;
+    flex-grow: 1;
+    text-align: justify;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+
+}
