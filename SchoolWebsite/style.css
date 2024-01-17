@@ -85,6 +85,17 @@ body {
     background-color: rgb(0,0,0,0 );
 
 }
+.sub-titles-PVA {
+    font-size: 5em;
+    background-color: #0a2c01;
+
+}
+
+.sub-titles-BD {
+    font-size: 5em;
+    background-color: #0a2c01;
+
+}
 
 .scroll-container img {
     padding: 5px;
@@ -103,6 +114,7 @@ body {
     display: block;
     background-color: #011a2c;
     margin-bottom: 30em;
+    margin-top: 30em;
 
 }
 .subTitlesCompany{
@@ -134,51 +146,84 @@ body {
 }
 
 
-
 .gitHubContainer{
     background-color: #0a2c01;
 }
 
+.articleGit2{
+    display: flex;
+    background-color: #0a2c01;
+    padding: 0;
+}
+
 .gitHubContainer img{
+    display: flex;
     max-width: 30%;
+    background-color: #0a2c01;
 
 }
 
 .paragraphAboutGitHub{
+    display: flex;
     background-color: #0a2c01;
     flex-grow: 1;
     text-align: justify;
+    font-size: 300%;
 }
 
 .githubBtn {
+    display: flex;
     background-color: yellow;
     color: #000;
     font-size: 3em;
     font-family: Kanit;
     font-weight: bold;
     border-radius: 25px;
+    cursor: pointer;
+    height: 33%;
+    margin-top: 20vh;
 }
 
 
 
 
-.curriculumVitaeContainer{
-    background-color: #2c0101;
+
+.BDContainer{
+    background-color: #0a2c01;
 }
 
-.paragraphAboutCV{
-    background-color: #2c0101;
+.articleBD2{
+    display: flex;
+    background-color: #0a2c01;
+    padding: 0;
+}
+
+.BDContainer img{
+    display: flex;
+    max-width: 30%;
+    background-color: #0a2c01;
+
+}
+
+.paragraphAboutBD{
+    display: flex;
+    background-color: #0a2c01;
     flex-grow: 1;
     text-align: justify;
+    font-size: 300%;
 }
 
-.cvBtn {
+.BDBtn {
+    display: flex;
     background-color: yellow;
     color: #000;
     font-size: 3em;
     font-family: Kanit;
     font-weight: bold;
     border-radius: 25px;
+    cursor: pointer;
+    height: 33%;
+    margin-top: 20vh;
 }
 
 
