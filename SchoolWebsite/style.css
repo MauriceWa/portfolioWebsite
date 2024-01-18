@@ -92,7 +92,7 @@ body {
 }
 
 .btn-action:hover {
-    background-color: darken(var(--btn-background-color), 10%);
+    filter: brightness(90%);
 }
 
 /* Responsive adjustments */
