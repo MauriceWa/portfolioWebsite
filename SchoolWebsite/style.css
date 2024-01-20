@@ -99,7 +99,8 @@ body {
 @media (max-width: 768px) {
     .main-navigation {
         flex-direction: column;
-        padding: 1rem;
+        padding: 0;
+        
     }
 
     .nav-item {
