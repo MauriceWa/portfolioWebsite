@@ -58,6 +58,11 @@ body {
     background-color: var(--section-background-color);
     margin-bottom: 1rem;
 }
+.section-generic-mobile {
+    padding: 2rem;
+    background-color: var(--section-background-color);
+    margin-bottom: 1rem;
+}
 
 .section-title {
     color: var(--accent-color);
@@ -119,3 +124,8 @@ body {
         margin-top: 1rem;
     }
 
+.section-generic-mobile {
+    padding: 2rem;
+    background-color: var(--section-background-color);
+    margin-bottom: 15rem;
+}
